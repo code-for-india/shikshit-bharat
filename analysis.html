@@ -1,4 +1,4 @@
-<!DOCTYPE html ng-app>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -316,49 +316,27 @@
             chart9.draw(data9, options9);
         }
     </script>
-    <!--<script>
-        $(document).ready(function () {
-            $('#central').hide();
-            $('#states').hide();
-            $('#schools').hide();
-        });
-
-        $('#stakeholder').change(
-        function () {
-            if ($(this).val() == "Central Government") {
-                $('#states').hide();
-                $('#schools').hide();
-                $('#central').show();
-            }
-            else if ($(this).val()== "State Government") {
-                $('#central').hide();
-                $('#schools').hide();
-                $('#states').show();
-            }
-            else if ($(this).val() == "Board/University Director") {
-                $('#central').hide();
-                $('#schools').show();
-                $('#states').hide();
-            }
-        });
-    </script>-->
 </head>
 
 <body>
+<!--
     <div id="option">
         <div id="stakeholder_div">
             <h1>Select Stakeholders</h1>
-            <select id="stakeholder">
-                <option value="Central Government">Central Government</option>
-                <option value="State Government">State Government</option>
-                <option value="Board/University Director">Board/University Director</option>
+            <select id="stakeholder" ng-model="area">
+                <option value="">Select</option>
+                <option value="CG">Central Government</option>
+                <option value="SG">State Government</option>
+                <option value="BU">Board/University Director</option>
             </select>
         </div>
     </div>
     <br />
     <br />
-    <div id="analytics" style="overflow-y:scroll;height:75vh;width:80%;margin:0 auto;overflow-x:hidden;">
-        <div id="central">
+-->
+    <div id="analytics" style="margin:0 auto;">
+        <h1>Central Government</h1>
+        <div id="central" ng-show="area === 'CG'">
             <div id="ana1" style="width:50%;display:inline-block;">
                 <!--Statewise attendence rate (Bar Chart)-->
             </div>
@@ -369,7 +347,9 @@
                 <!--Calendar Graph for day to day comparison-->
             </div>
         </div>
-        <div id="states">
+
+        <h1>State Government</h1>
+        <div id="states" ng-show="area === 'SG'">
             <div id="ana4">
                 <!--Zonewise attendence rate(Bar Chart)-->
             </div>
@@ -381,7 +361,8 @@
             </div>
         </div>
 
-        <div id="schools">
+        <h1>Board/University Director</h1>
+        <div id="schools" ng-show="area === 'BU'">
             <div id="ana7" style="width:50%;display:inline-block;">
             </div>
             <div id="ana9" style="width:48%;display:inline-block;">

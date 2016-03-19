@@ -3,6 +3,7 @@ myApp.controller('homeCtrl', ['$scope', '$rootScope', 'callApi', function ($scop
     var attendanceStudent = [];
     var absentStudent = [];
     $scope.attendanceSession = false;
+    $scope.count = 0;
 
     $scope.takeAttendanceData = function() {
         $scope.teacher = $scope.period.teacher;
@@ -15,12 +16,13 @@ myApp.controller('homeCtrl', ['$scope', '$rootScope', 'callApi', function ($scop
             if($scope.attendanceSession === false) {
                 $scope.validateAttendance();
             }
-            return;
         } else {
             if($scope.attendanceSession === true) {
                 attendanceStudent.push($scope.id);
+                $scope.count++;
             }
         }
+        $scope.id = "";
     };
 
     $scope.validateAttendance = function() {
@@ -43,6 +45,6 @@ myApp.controller('homeCtrl', ['$scope', '$rootScope', 'callApi', function ($scop
          }
 
         //Call notification api.
-        callApi.callApi('/message/sms.php', 'GET', "{'absentee': '9886731643'}");
+        callApi.callApi('/message/sms.php', 'GET', '?absentee=9886731643');
     };
 }]);

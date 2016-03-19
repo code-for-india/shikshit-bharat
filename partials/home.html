@@ -9,13 +9,14 @@
     <p ng-show="period">{{(attendanceSession ? 'Session Started' : 'Session End')}}</p>
     <div ng-show="period">
         <h1>Please enter Teacher's <strong>({{teacher.id}})</strong> finger print at the begining and ending of the session.</h1>
+        <p>{{count}} Attendance Taken</p>
         <input type="text" ng-model="id">
         <br />
         <button ng-click="takeAttendance()" style="background-image: url(images/fingerprint.jpg); width: 200px; height: 200px"></button>
     </div>
     <br>
     <h2 ng-show="period">Attendance Details</h2>
-    <table ng-show="period">
+    <table ng-show="period" border="1">
         <tr>
             <th>Name</th>
             <th>Attendance</th>
