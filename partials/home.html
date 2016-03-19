@@ -1,0 +1,28 @@
+<center>
+    <select ng-model="state" ng-options="data.name for data in datas "></select>
+    <select ng-model="city" ng-options="data.name for data in state.child"></select>
+    <select ng-model="school" ng-options="data.name for data in city.child"></select>
+    <select ng-model="class" ng-options="data.name for data in school.child"></select>
+    <select ng-model="period" ng-change="takeAttendanceData()" ng-options="data.name for data in class.child"></select>
+    <pre ng-show="period">{{period.student}}</pre>
+    <br>
+    <p ng-show="period">{{(attendanceSession ? 'Session Started' : 'Session End')}}</p>
+    <div ng-show="period">
+        <h1>Please enter Teacher's <strong>({{teacher.id}})</strong> finger print at the begining and ending of the session.</h1>
+        <input type="text" ng-model="id">
+        <br />
+        <button ng-click="takeAttendance()" style="background-image: url(images/fingerprint.jpg); width: 200px; height: 200px"></button>
+    </div>
+    <br>
+    <h2 ng-show="period">Attendance Details</h2>
+    <table ng-show="period">
+        <tr>
+            <th>Name</th>
+            <th>Attendance</th>
+        </tr>
+        <tr ng-repeat="s in student">
+            <td>{{s.name}}</td>
+            <td>{{s.attendance}}</td>
+        </tr>
+    </table>
+</center>

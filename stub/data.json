@@ -1,0 +1,2978 @@
+[
+    {
+        "name": "Punjab",
+        "type": "zone",
+        "child": [
+            {
+                "name": "Chandigarh",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "KVChandigarh",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chitkara Public School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Panchkula",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "KVPanchkula",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Modern Public School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AndhraPradesh",
+        "type": "zone",
+        "child": [
+            {
+                "name": "Kurnool",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "Rotary school",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Padma"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Preeti"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Kaushik"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Gopal"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Bhavani"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Padma"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Preeti"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Kaushik"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Gopal"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Gopi"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Padma"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Preeti"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Kaushik"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Gopal"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Lalitha"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Poonam"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Raghu"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Poorathy"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Dhoni"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Tej"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Pavithra"
+                                            },
+                                            {
+                                                "roll": "7",
+                                                "name": "Fahim"
+                                            },
+                                            {
+                                                "roll": "8",
+                                                "name": "Subash"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Poonam"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Raghu"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Poorathy"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Dhoni"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Tej"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Pavithra"
+                                            },
+                                            {
+                                                "roll": "7",
+                                                "name": "Fahim"
+                                            },
+                                            {
+                                                "roll": "8",
+                                                "name": "Subash"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Poonam"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Raghu"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Poorathy"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Dhoni"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Tej"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Pavithra"
+                                            },
+                                            {
+                                                "roll": "7",
+                                                "name": "Fahim"
+                                            },
+                                            {
+                                                "roll": "8",
+                                                "name": "Subash"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sharada Public School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Poonam"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Raghu"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Poorathy"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Dhoni"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Tej"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Pavithra"
+                                            },
+                                            {
+                                                "roll": "7",
+                                                "name": "Fahim"
+                                            },
+                                            {
+                                                "roll": "8",
+                                                "name": "Subash"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Poonam"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Raghu"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Poorathy"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Dhoni"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Tej"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Pavithra"
+                                            },
+                                            {
+                                                "roll": "7",
+                                                "name": "Fahim"
+                                            },
+                                            {
+                                                "roll": "8",
+                                                "name": "Subash"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Poonam"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Raghu"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Poorathy"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Dhoni"
+                                            },
+                                            {
+                                                "roll": "5",
+                                                "name": "Tej"
+                                            },
+                                            {
+                                                "roll": "6",
+                                                "name": "Pavithra"
+                                            },
+                                            {
+                                                "roll": "7",
+                                                "name": "Fahim"
+                                            },
+                                            {
+                                                "roll": "8",
+                                                "name": "Subash"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Vijayawada",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "Chaitanya public school",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Modern Public School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "West Bengal",
+        "type": "zone",
+        "child": [
+            {
+                "name": "Kolkata",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "South Point High School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Amitava"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Amitava1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Amitava2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Julian Day School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Amitava"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Amitava1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Amitava2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Darjeeling",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "Delhi Public School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Amitava"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Amitava1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Amitava2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "St Joseph High School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Amitava"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Amitava1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Rajesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Saurav"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Debjani"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Pradip"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Amitava2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Delhi",
+        "type": "zone",
+        "child": [
+            {
+                "name": "South West Delhi",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "KVJanakpuri",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Alok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Army Public School Delhi Cannt",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Nitesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Deepjyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Geetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "South Delhi",
+                "type": "zone",
+                "child": [
+                    {
+                        "name": "SBV RK puram",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Modern Public School",
+                        "type": "school",
+                        "child": [
+                            {
+                                "name": "class1",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t1",
+                                            "name": "Ashok"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t2",
+                                            "name": "Ashok1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Suresh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Jyoti"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Seetha"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Umesh"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t3",
+                                            "name": "Ashok2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "class2",
+                                "type": "class",
+                                "child": [
+                                    {
+                                        "name": "1stPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t4",
+                                            "name": "Prabhat"
+                                        }
+                                    },
+                                    {
+                                        "name": "2ndPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t5",
+                                            "name": "Prabhat1"
+                                        }
+                                    },
+                                    {
+                                        "name": "3rdPeriod",
+                                        "type": "period",
+                                        "student": [
+                                            {
+                                                "roll": "1",
+                                                "name": "Ramesh"
+                                            },
+                                            {
+                                                "roll": "2",
+                                                "name": "Shyam"
+                                            },
+                                            {
+                                                "roll": "3",
+                                                "name": "Gita"
+                                            },
+                                            {
+                                                "roll": "4",
+                                                "name": "Ravi"
+                                            }
+                                        ],
+                                        "teacher": {
+                                            "id": "t6",
+                                            "name": "Prabhat2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

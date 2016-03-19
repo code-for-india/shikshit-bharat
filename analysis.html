@@ -1,0 +1,398 @@
+<!DOCTYPE html ng-app>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Analysis of Student Attendence</title>
+    <script src="js/common/jquery/jquery.js"></script>
+    <script src="js/common/angular/1.4.8/angular.js"></script>
+    <script src="js/common/loader/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", {
+            packages: ['corechart', 'timeline', 'calendar', 'bar']
+        });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            //Analytics 1
+            var data1 = google.visualization.arrayToDataTable([
+          ["State", "Percentage", {
+                    role: "style"
+                }],
+          ["Karnataka", 98, "color: #334CFF"],
+          ["Kerala", 96, "color: #3C53FF"],
+          ["Tamilnadu", 95, "color: #5065FF"],
+          ["Delhi", 92, "color: #576CFF"],
+          ["Tamilnadu", 90, "color: #5D71FF"],
+          ["Gujarat", 87, "color: #6376FF"],
+          ["Andhra Pradesh", 86, "color: #7787FF"],
+          ["West Bengal", 84, "color: #8493FF"],
+          ["Haryana", 81, "color: #93A0FF"],
+          ["Maharashtra", 81, "color: #ADB7FF"],
+          ["Assam", 80, "color: #B8C0FF"],
+          ["Manipur", 80, "color: #C8CFFF"]
+        ]);
+
+            var view1 = new google.visualization.DataView(data1);
+            view1.setColumns([0, 1,
+                {
+                    calc: "stringify",
+                    sourceColumn: 1,
+                    type: "string",
+                    role: "annotation"
+                         },
+                         2]);
+
+            var options1 = {
+                title: "Statewise Attendence Percentage",
+                width: 600,
+                height: 400,
+                bar: {
+                    groupWidth: "95%"
+                },
+                legend: {
+                    position: "none"
+                },
+                vAxis: {
+                    max: 102
+                }
+            };
+            var chart1 = new google.visualization.ColumnChart(document.getElementById("ana1"));
+            chart1.draw(view1, options1);
+
+
+            //Analytics 2
+            var data2 = new google.visualization.DataTable();
+            data2.addColumn('number', 'X');
+            data2.addColumn('number', 'Male');
+            data2.addColumn('number', 'Female');
+
+            data2.addRows([
+          [2000, 87, 78],
+          [2001, 86, 77],
+          [2002, 87, 78],
+          [2003, 88, 79],
+          [2004, 89, 81],
+          [2005, 88, 79],
+          [2006, 89, 80],
+          [2007, 91, 82],
+          [2008, 92, 83],
+          [2009, 93, 84],
+          [2010, 93, 85],
+          [2011, 94, 87],
+          [2012, 95, 88],
+          [2013, 95, 89],
+          [2014, 96, 91],
+          [2015, 96, 93]
+        ]);
+
+
+            var options2 = {
+                hAxis: {
+                    title: 'Year',
+                    format: '0'
+                },
+                vAxis: {
+                    title: 'Attendence Percentage'
+                },
+                colors: ['#AB0D06', '#007329'],
+                height: 400,
+                title: 'Yearwise Attendence Percentage: Male vs Female'
+            };
+
+            var chart2 = new google.visualization.LineChart(document.getElementById('ana2'));
+            chart2.draw(data2, options2);
+
+
+            //Analytics 3
+            var data3 = google.visualization.arrayToDataTable([
+            ['State', 'Attendence'],
+          ['Karnataka', 98],
+          ['Kerala', 96],
+          ['Tamilnadu', 95],
+          ['Tamilnadu', 90],
+          ['Gujarat', 87],
+          ['Andhra Pradesh', 86],
+          ['West Bengal', 84],
+          ['Haryana', 81],
+          ['Maharashtra', 81],
+          ['Assam', 80],
+          ['Manipur', 80]
+        ]);
+
+            var options3 = {
+                region: 'IN',
+                resolution: 'provinces',
+                backgroundColor: 'deepskyblue',
+                datalessRegionColor: '#eee',
+
+                colorAxis: {
+                    colors: ['pink', 'red', 'lightgreen', 'green']
+                }
+            };
+
+            var chart3 = new google.visualization.GeoChart(document.getElementById('ana3'));
+
+            chart3.draw(data3, options3);
+
+
+            //Analysis 4
+            var data4 = google.visualization.arrayToDataTable([
+          ["Stream", "Percentage", {
+                    role: "style"
+                }],
+          ["Science", 90, "color: blue"],
+          ["Engineering", 86, "color: purple"],
+          ["Arts", 83, "color: green"],
+          ["Commerce", 80, "color: red"],
+          ["Music", 73, "color: yellow"],
+          ["Others", 67, "color: orange"]
+        ]);
+
+            var view4 = new google.visualization.DataView(data4);
+            view4.setColumns([0, 1,
+                {
+                    calc: "stringify",
+                    sourceColumn: 1,
+                    type: "string",
+                    role: "annotation"
+                         },
+                         2]);
+
+            var options4 = {
+                title: "Subjectwise Attendence Percentage",
+                width: 600,
+                height: 400,
+                bar: {
+                    groupWidth: "95%"
+                },
+                vAxis: {
+                    max: 102
+                }
+            };
+            var chart4 = new google.visualization.ColumnChart(document.getElementById("ana4"));
+            chart4.draw(view4, options4);
+
+
+
+            //Analytics 5
+            var data5 = google.visualization.arrayToDataTable([
+          ['Month', 'Attendence'],
+          ['Jan', 85],
+          ['Feb', 75],
+          ['Mar', 50],
+          ['Apr', 20],
+          ['May', 92],
+          ['Jun', 80],
+          ['Jul', 88],
+          ['Aug', 90],
+          ['Sep', 90],
+          ['Oct', 80],
+          ['Nov', 91],
+          ['Dec', 93]
+        ]);
+
+            var options5 = {
+                title: 'Yearwise Performance',
+                hAxis: {
+                    title: 'Year',
+                    titleTextStyle: {
+                        color: '#333'
+                    }
+                },
+                vAxis: {
+                    minValue: 0
+                }
+            };
+
+            var chart5 = new google.visualization.AreaChart(document.getElementById('ana5'));
+            chart5.draw(data5, options5);
+
+            //Analytics 6
+
+
+            //Analytics 7
+            var data7 = new google.visualization.DataTable();
+            data7.addColumn('string', 'Day of Week');
+            data7.addColumn('number', 'Male');
+            data7.addColumn('number', 'Female');
+
+            data7.addRows([
+          ['Mon', 88, 83],
+          ['Tue', 93, 89],
+          ['Wed', 92, 88],
+          ['Thu', 90, 83],
+          ['Fri', 85, 82],
+          ['Sat', 79, 70]
+        ]);
+
+            var options7 = {
+                chart: {
+                    title: 'Weekly Attendence Percentage: Male vs Female'
+                },
+                series: {
+                    0: {
+                        axis: 'Male'
+                    },
+                    1: {
+                        axis: 'Female'
+                    }
+                },
+                hAxis: {
+                    title: 'Day of Week'
+                },
+                vAxis: {
+                    title: 'Percentage'
+                },
+                height: 400,
+                width: 600,
+                bar: {
+                    columnWidth: '50%'
+                }
+            };
+
+            var material7 = new google.charts.Bar(document.getElementById('ana7'));
+            material7.draw(data7, options7);
+
+            //Analytics 8
+            var dataTable8 = new google.visualization.DataTable();
+            dataTable8.addColumn({
+                type: 'date',
+                id: 'Date'
+            });
+            dataTable8.addColumn({
+                type: 'number',
+                id: 'Attendence'
+            });
+            dataTable8.addRows([
+           [new Date(2012, 3, 13), 430],
+           [new Date(2012, 3, 14), 580],
+           [new Date(2012, 3, 15), 456],
+           [new Date(2012, 3, 16), 540],
+           [new Date(2012, 3, 17), 520],
+           [new Date(2012, 3, 18), 520],
+           [new Date(2012, 3, 19), 520],
+           [new Date(2012, 3, 20), 520],
+           [new Date(2012, 3, 21), 520],
+           [new Date(2012, 3, 22), 520],
+           [new Date(2012, 3, 23), 520],
+           [new Date(2013, 9, 24), 456],
+           [new Date(2013, 9, 25), 789],
+           [new Date(2013, 9, 26), 582],
+           [new Date(2013, 9, 27), 654],
+           [new Date(2013, 9, 28), 152],
+           [new Date(2013, 9, 29), 235],
+           [new Date(2013, 9, 30), 656]
+        ]);
+
+            var chart8 = new google.visualization.Calendar(document.getElementById('ana8'));
+
+            var options8 = {
+                title: "Daywise Attendence",
+                height: 350,
+            };
+
+            chart8.draw(dataTable8, options8);
+
+
+            //Analytics 9
+            var data9 = google.visualization.arrayToDataTable([
+          ['Subject', 'Hours per Subject'],
+          ['Science', 40],
+          ['Arts', 20],
+          ['Commerce', 15],
+          ['Music', 15],
+          ['Others', 10]
+        ]);
+
+            var options9 = {
+                title: 'Average Hours per Subject spent by a student in a day',
+                width: 900,
+                height: 400
+            };
+
+            var chart9 = new google.visualization.PieChart(document.getElementById('ana9'));
+
+            chart9.draw(data9, options9);
+        }
+    </script>
+    <!--<script>
+        $(document).ready(function () {
+            $('#central').hide();
+            $('#states').hide();
+            $('#schools').hide();
+        });
+
+        $('#stakeholder').change(
+        function () {
+            if ($(this).val() == "Central Government") {
+                $('#states').hide();
+                $('#schools').hide();
+                $('#central').show();
+            }
+            else if ($(this).val()== "State Government") {
+                $('#central').hide();
+                $('#schools').hide();
+                $('#states').show();
+            }
+            else if ($(this).val() == "Board/University Director") {
+                $('#central').hide();
+                $('#schools').show();
+                $('#states').hide();
+            }
+        });
+    </script>-->
+</head>
+
+<body>
+    <div id="option">
+        <div id="stakeholder_div">
+            <h1>Select Stakeholders</h1>
+            <select id="stakeholder">
+                <option value="Central Government">Central Government</option>
+                <option value="State Government">State Government</option>
+                <option value="Board/University Director">Board/University Director</option>
+            </select>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div id="analytics" style="overflow-y:scroll;height:75vh;width:80%;margin:0 auto;overflow-x:hidden;">
+        <div id="central">
+            <div id="ana1" style="width:50%;display:inline-block;">
+                <!--Statewise attendence rate (Bar Chart)-->
+            </div>
+            <div id="ana2" style="width:48%;display:inline-block;">
+                <!--State attendence over time (Line Chart)-->
+            </div>
+            <div id="ana3" style="width:100%;">
+                <!--Calendar Graph for day to day comparison-->
+            </div>
+        </div>
+        <div id="states">
+            <div id="ana4">
+                <!--Zonewise attendence rate(Bar Chart)-->
+            </div>
+            <div id="ana5">
+                <!--Map -->
+            </div>
+            <div id="ana6">
+                <!---->
+            </div>
+        </div>
+
+        <div id="schools">
+            <div id="ana7" style="width:50%;display:inline-block;">
+            </div>
+            <div id="ana9" style="width:48%;display:inline-block;">
+                <!--Period wise chart(timeline)-->
+            </div>
+            <div id="ana8" style="width:100%;">
+                <!--Calendar chart-->
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
